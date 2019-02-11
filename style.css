@@ -1,0 +1,36 @@
+p{
+    font-size:20px;
+}
+
+div{
+    background-color: yellow;
+    color: blue;
+    display:inline-block;
+
+}
+
+#nopadding{
+    padding :0;
+}
+
+#padding{
+    padding: 50px;
+}
+#toppadding{
+    padding-right: 50px;
+}
+#rightpadding{
+    padding-right:50px;
+}
+#leftpadding{
+    padding-left:50px;
+}
+#bottompadding{
+    padding-bottom: 50px;
+}
+
+/*order is always TOP RIGHT BOTTOM RIGHT BOOTOM LEFT */
+
+#mixedpadding{
+    padding :10px 40px 100px 20px;
+}
